@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url("assets/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow:hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.logo {
+  font-size: 30px;
+
+  color: rgb(255, 115, 0);
+  padding-left: 120px;
+  margin-top: 9px;
+  font-weight: bold;
+}
+
+.navbar {
+  width: 150px;
+}
+
+.search-container {
+  border: box-sizing;
+  width: 350px;
+  display: flex;
+  color: white;
+}
+
+.search-container input {
+  outline: none;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  margin-top: 12px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: rgb(255, 115, 0);
+  color: white;
+  border-color: transparent;
+}
+
+.button:hover {
+  background-color: rgb(255, 77, 0);
+  cursor: pointer;
+  outline: none;
+}
+
+.input-box {
+  border: 1px solid rgb(255, 115, 0);
+  height: 40px;
+  margin-top: 12px;
+  color: white;
+  border-radius: 8px 0px 0px 8px;
+  text-indent: 5px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 60px;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+}
+
+li {
+  display: block;
+  color: white;
+  float: left;
+  padding: 10px 10px;
+}
+
+li:hover {
+  color: rgb(255, 115, 0);
+  cursor: pointer;
+}
+
+section {
+  width: 600px;
+  height: 300px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+h1,
+h3 {
+  font-size: 50px;
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 55px;
+  color: rgb(255, 115, 0);
+  letter-spacing: 2px;
+}
+
+p {
+  color: white;
+  text-align: left;
+  white-space: nowrap;
+  font-size: large;
+  line-height: 1.5;
+  word-spacing: 6px;
+}
+
+.join-us {
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: rgb(255, 115, 0);
+  font-size: 15px;
+}
+
+.join-us:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.main-body {
+  display: flex;
+  height: calc(100% - 40px);
+}
+
+.login-title {
+  display: grid;
+  width: 70%;
+  background-color: white;
+  color: rgb(255, 115, 0);
+  place-items: center;
+  margin: 20px 10px 10px 48px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  margin-left: 200px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.email {
+  width: 90%;
+  padding: 5px;
+  margin: 40px 20px 10px 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 149, 0);
+  color: white;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.password {
+  width: 90%;
+  padding: 5px;
+  margin: 40px 20px 10px 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 149, 0);
+  color: white;
+}
+
+.password {
+  outline: none;
+}
+
+.login-button {
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 40px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: large;
+  background-color: rgb(255, 115, 0);
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.login-social {
+  font-size: large;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sign-up {
+  color: rgb(255, 115, 0);
+}
+
+.sign-up:hover {
+  cursor: pointer;
+}
+.log-with {
+  font-size: large;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: 68px;
+  font-size: 25px;
+}
