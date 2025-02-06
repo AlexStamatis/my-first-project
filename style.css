@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 header {
@@ -32,14 +31,24 @@ header {
   width: 150px;
 }
 
+.search-box {
+
+  display:flex;
+  
+  
+}
 .search-container {
   border: box-sizing;
   width: 350px;
   display: flex;
   color: white;
+  
+  
+  
+
 }
 
-.search-container input {
+.search-container input{
   outline: none;
 }
 
@@ -51,6 +60,10 @@ header {
   background-color: rgb(255, 115, 0);
   color: white;
   border-color: transparent;
+  margin-right:50px;
+  
+
+  
 }
 
 .button:hover {
@@ -63,11 +76,13 @@ header {
   border: 1px solid rgb(255, 115, 0);
   height: 40px;
   margin-top: 12px;
+  margin-right:auto;
   color: white;
   border-radius: 8px 0px 0px 8px;
   text-indent: 5px;
   font-weight: bold;
   background-color: transparent;
+  outline: none;
 }
 
 ul {
